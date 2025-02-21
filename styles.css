@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Boxar runt bilder */
+.box {
+    border: 3px solid black;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bilder */
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
